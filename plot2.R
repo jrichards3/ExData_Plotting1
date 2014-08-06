@@ -1,11 +1,18 @@
+# Using data from UC Irvine Machine Learning Repository - Electric power consumption
 #
+# Plot Global Active Power for 2/1/2007 through 2/2/2007
 #
+# Given a dataset make a plot. Plot is defaulted to plot2.png but can be overriden.
 #
-#
-#
-#
-#
-#
+# 1) Load dataset
+# 2) Make NewDate which combines and formats the Date and Time into a timestamp.
+# 3) Format the Date properly
+# 4) Select all records 2007-02-01 and newer
+# 5) Of the new set of data select all records for 2007-02-02 and older.
+# 6) Format the Global Active Power as a numeric.
+# 7) Open png device.
+# 8) Generate plot of Global Active Power by day of week, format as requested.
+# 9) close the device.
 #
 #
 

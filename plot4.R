@@ -1,13 +1,21 @@
+# Using data from UC Irvine Machine Learning Repository - Electric power consumption
+#
+# Plot Energy Sub Metering for 2/1/2007 through 2/2/2007
+#
+# Given a dataset make a plot. Plot is defaulted to plot3.png but can be overriden.
+#
+# 1) Load dataset
+# 2) Make NewDate which combines and formats the Date and Time into a timestamp.
+# 3) Format the Date properly
+# 4) Select all records 2007-02-01 and newer
+# 5) Of the new set of data select all records for 2007-02-02 and older.
+# 6) Format the Sub_energy_metering_1,_2 and _3 as a numeric.
+# 7) Open png device.
+# 8) Generate plot of Sub_energy_metering_1,Sub_energy_metering_2 and Sub_energy_metering_3. Each with there own color and a legend.
+# 9) close the device.
 #
 #
-#
-#
-#
-#
-#
-#
-#
-#
+
 
 plot4 <- function(dataset, pngFile = "plot4.png"){
     
